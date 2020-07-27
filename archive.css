@@ -1,0 +1,47 @@
+.chat-msg-TwoStepBoog{ --t-color: #87cce4; }
+.chat-msg-billzasilver2{ --t-color: #c0ffee; --f-flair: "🐺";}
+.chat-msg-broken_box{ --t-color: #F4A460; --f-flair: "📦"; --rename: "Broken Presents: "; --r-toggle: 0px; }
+.chat-msg-Svejk{ --t-color: #f2e696; --n-color: #f2e696;}
+
+.chat-msg-PatThePenguin{
+--n-color: #E39559;
+--t-color: #de8447;
+--f-flair: "";
+--f-url: url("https://i.imgur.com/BZtmdS3.png");
+--r-toggle:0px;
+--rename: "PatThePenguini: ";
+background-image: linear-gradient(to bottom, #E39559 40%, #CD5AC2 80%) !important;
+color:transparent !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+}
+
+.chat-msg-sharps{
+color:#f00;
+--f-flair: "🔪";
+background-image: linear-gradient(to bottom, #f00 50%, #fff 100%) !important;
+color:transparent !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+}
+.chat-msg-sharps .username {
+color:#f00;
+  position:relative;
+background-image: linear-gradient(to bottom, #f00 50%, #fff 100%) !important; /* Standard syntax; must be last */
+color:transparent !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+}
+.chat-msg-sharps .username::before {
+color:#fff !important;
+}
+.chat-msg-sharps .username::after {
+  content:" " !important;
+  position:absolute !important;
+  bottom:-12px !important;
+  left:0 !important;
+  width:100% !important;
+  height:10px !important;
+  background-image:url('https://i.boring.host/5YUP7tC.gif') !important;
+  background-size:30% !important;
+}
