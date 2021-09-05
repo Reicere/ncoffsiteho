@@ -400,7 +400,7 @@ details::-webkit-details-marker {
 .RCR_well{display: inline;font-family:monospace;animation:wellflash1 10s infinite step-end;}
 .RCR_wellmsg{display: inline;font-family:monospace;animation:wellflash2 10s infinite step-end;}
 .RCR_NeonText {
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Sacramento", sans-serif;
   color: #fff;
   text-shadow:
     0 0 7px #fff,
@@ -414,8 +414,9 @@ details::-webkit-details-marker {
 }
 h1.RCR_NeonText {
   text-align: center;
+  white-space: nowrap;
   font-weight: 400;
-  font-size: 6.2rem;
+  font-size: 3.2rem;
   animation: RCR_NeonPulse 1.5s infinite alternate;  
   border: 0.2rem solid #fff;
   border-radius: 2rem;
